@@ -1,6 +1,7 @@
 package com.urwinday.webapp.model;
 
 import java.util.Collection;
+import java.util.List;
 
 /**
  * urwinday
@@ -9,5 +10,7 @@ import java.util.Collection;
 public class Resume {
     private String fullName;
     private String location;
+    private List<Contact> contact;
+    private List<Section> sections;
 
 }
