@@ -5,5 +5,5 @@ package com.urwinday.webapp.model;
  * 07.12.2017.
  */
 public class Section {
-    SectionType type;
+    protected SectionType type;
 }
