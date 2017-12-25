@@ -12,5 +12,15 @@ public class Main {
         System.out.println(l1);
         System.out.println(l1.getClass());
 
+        System.out.println(Link.EMPTY);
+        System.out.println(l1.empty());
+        Integer obj = 5;
+        printInt(obj);
     }
+
+    static void printInt(int i) {
+        System.out.println(i);
+    }
+
+
 }
