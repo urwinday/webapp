@@ -1,5 +1,6 @@
 package com.urwinday.webapp.storage;
 
+import com.urwinday.webapp.WebAppException;
 import com.urwinday.webapp.model.Resume;
 
 import java.util.Collection;
@@ -11,7 +12,7 @@ import java.util.Collection;
 public interface IStorage {
     void clear();
 
-    void save(Resume r);
+    void save(Resume r) throws WebAppException;
 
     void update(Resume r);
 
